@@ -970,7 +970,9 @@ body {
  	padding-left: 20px;
  	padding-right: 20px;
  }
-
+ .md-mt-39 {
+ 	margin-top: 39px;
+ }
   .md-flex-wrap {
   	flex-wrap: wrap;
   }
