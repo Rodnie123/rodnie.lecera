@@ -295,13 +295,15 @@ ul li{
 	display: block;
 	padding: 20px;
 	color: black;
+	text-align: center;
+	color: white;
 }
 .mobile-menu .menu ul li:hover {
 	background-color: orange;
 }
 .mobile-menu .menu button {
 
-	background-color: black;
+	background-color: orange;
     border-radius: 9998px;
     padding: 10px 19px;
     font-size: 17px;
