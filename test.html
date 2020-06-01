@@ -4,23 +4,42 @@
 	<title></title>
 </head>
 <body>
-	<input type="button" value="Send Email" onclick="sendEmail()">
-
+	<!-- <input type="button" value="Send Email" onclick="sendEmail()"> -->
+<!-- <button onclick="download()">click here</button> -->
+	<a href="resume.docx" download="Rodnie lecera">download resume</a>
 </body>
 
 </html>
 <script src="https://smtpjs.com/v3/smtp.js">
 </script>
+<script type="text/javascript" src="fileSaver.js"></script>
 <script type="text/javascript">
-		function sendEmail() {
-			Email.send({
-    SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
-    To : 'areceleindoR@gmail.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-	}
+	// 	function sendEmail() {
+	// 		Email.send({
+	// 			Host: "rodnie.lecera.com",
+	// 			Username : "<sender’s email address>",
+	// 			Password : "<email password>",
+	// 			To : 'areceleindoR@gmail.com',
+	// 			From : "example@gmail.com",
+	// 			Subject : "<email subject>",
+	// 			Body : "<email body>",
+	// 		})
+	// 		.then(function(message){
+	// 			alert("mail sent successfully")
+	// 		});
+	// }
+	// function download () {
+	// 	var content = "resume.docx";
+	// 	// any kind of extension (.txt,.cpp,.cs,.bat)
+	// 	var filename = "Lecera Rodnie Amoy.docx";
+
+	// 	var blob = new Blob([content], {
+	// 	type: "text/plain;charset=utf-8"
+	// 	});
+
+	// 	saveAs(blob, filename);
+	//     alert('downloaded');
+	//  console.log('downloaded')
+	// 	}
+
 </script>
