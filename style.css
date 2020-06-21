@@ -1,3 +1,19 @@
+/*
+latest upadate*/
+
+
+.sample-work .sample {
+	overflow: hidden;
+	border-radius: 4px 4px 4px 4px ;
+/*	height: 350px;*/
+	border:  1px solid rgba(0,0,0,.125);
+	margin-top: 20px;
+}
+
+.sample .inner-title {
+	padding: 18px;
+	border-top: 1px solid rgba(0,0,0,.125);
+}
 .header {
 	background-color: #2073b5;
 	align-items: flex-start;
@@ -592,12 +608,12 @@ ul li{
 	border: 1px solid white;
 	border-radius: 4px;
 }
-.sample-work a:hover img {
+/*.sample-work a:hover img {
 	position: relative;
 	z-index: 10;
 	transform: scale(0.7);
 	transition: .5s;
-}
+}*/
 .preview a img {
 	height: 200px;
 }
@@ -779,6 +795,9 @@ ul li{
 .text-white {
 	color: white;
 
+}
+.text-black {
+	color: black
 }
 .text-blue-gradient {
 	color: linear-gradient(120deg, rgb(32, 115, 181) 8%, rgb(19, 179, 179) 33%, #2073b5 54%)
