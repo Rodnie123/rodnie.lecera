@@ -1,17 +1,24 @@
-	window.onload = function() {
+		window.onload = function() {
 	let newColor = localStorage.getItem('color');
 	$('.bg').css('background', newColor);
 	layoutLoader();
 };
-	// sa download
-	$(document).ready(function () {
-		// body...
-		$('#downloadCode').click(function () {
-			// body...
-			$('.downloadMessage').toggleClass("downloadHide");
-		})
 
-	})
+// $(window).on('load', function () {
+//         $(".loader").fadeOut();
+//         $("#preloder").delay(200).fadeOut("slow");
+
+
+//        } ;
+	// sa download
+	// $(document).ready(function () {
+	// 	// body...
+	// 	$('#downloadCode').click(function () {
+	// 		// body...
+	// 		$('.downloadMessage').toggleClass("downloadHide");
+	// 	})
+
+	// })
 
 	(function() {
   'use strict';
@@ -29,7 +36,9 @@
       }, false);
     });
   }, false);
-})();
+});
+
+
 	function showSideMenu () {
 		$('.side_menu').toggleClass('show-side-menu');
 	}
